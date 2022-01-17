@@ -40,7 +40,7 @@ body {
 }
 
 .card__hero__img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .card__content,
@@ -123,10 +123,11 @@ body {
 @media (min-width: 376px) {
   body {
     background-image: url("./images/pattern-background-desktop.svg");
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
   }
   .card__wrapper {
     width: 300px;
+    height: 450px;
   }
 
   .card__content_checkout__right__text:hover {
