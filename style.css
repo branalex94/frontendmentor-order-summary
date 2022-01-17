@@ -127,7 +127,7 @@ body {
   }
   .card__wrapper {
     width: 300px;
-    height: 450px;
+    height: 30rem;
   }
 
   .card__content_checkout__right__text:hover {
