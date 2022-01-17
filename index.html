@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card__wrapper">
+      <article class="card__hero">
+        <img
+          src="./images/illustration-hero.svg"
+          alt="Person listenning to music - Hero"
+          class="card__hero__img"
+        />
+      </article>
+
+      <article class="card__content">
+        <h1 class="card__content__title">Order Summary</h1>
+
+        <p class="card__content__text">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+
+        <article class="card__content__checkout">
+          <div class="card__content__checkout__left">
+            <img
+              src="./images/icon-music.svg"
+              alt="Musical note"
+              class="card__content__checkout__image"
+            />
+          </div>
+          <div class="card__content__checkout__middle">
+            <h3>Annual Plan</h3>
+            <h5 class="card__content__checkout__middle__price">$59.99/year</h5>
+          </div>
+          <div class="card__content_checkout__right">
+            <h4 class="card__content_checkout__right__text">Change</h4>
+          </div>
+        </article>
+      </article>
+      <article class="card__bottom__buttons">
+        <button class="card__payment__button">Proceed to Payment</button>
+        <p class="card__cancel__text">Cancel Order</p>
+      </article>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/branalex94/">Brandon Aray</a>.
+    </div>
+  </body>
+</html>
