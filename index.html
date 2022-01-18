@@ -33,16 +33,16 @@
     </style>
   </head>
   <body>
-    <main class="card__wrapper">
-      <article class="card__hero">
+    <main class="card__wrapper" role="container">
+      <div class="card__hero" role="hero">
         <img
           src="./images/illustration-hero.svg"
           alt="Person listenning to music - Hero"
           class="card__hero__img"
         />
-      </article>
+      </div>
 
-      <article class="card__content">
+      <div class="card__content" role="description">
         <h1 class="card__content__title">Order Summary</h1>
 
         <p class="card__content__text">
@@ -50,7 +50,7 @@
           any device anywhere you like!
         </p>
 
-        <article class="card__content__checkout">
+        <div class="card__content__checkout">
           <div class="card__content__checkout__left">
             <img
               src="./images/icon-music.svg"
@@ -58,21 +58,21 @@
               class="card__content__checkout__image"
             />
           </div>
-          <div class="card__content__checkout__middle">
-            <h3>Annual Plan</h3>
+          <div class="card__content__checkout__middle" role="price">
+            <h4>Annual Plan</h4>
             <h5 class="card__content__checkout__middle__price">$59.99/year</h5>
           </div>
           <div class="card__content_checkout__right">
             <h4 class="card__content_checkout__right__text">Change</h4>
           </div>
-        </article>
-      </article>
-      <article class="card__bottom__buttons">
+        </div>
+      </div>
+      <div class="card__bottom__buttons" role="payment">
         <button class="card__payment__button">Proceed to Payment</button>
         <p class="card__cancel__text">Cancel Order</p>
-      </article>
+      </div>
     </main>
-    <div class="attribution">
+    <div class="attribution" role="attributions">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
