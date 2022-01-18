@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Frontendmentor Order summary component finished.png)
+![Finished project picture](./images/Frontendmentor-Order-summary-component-finished.png)
 
 ### Links
 
